@@ -1,3 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:wght@100..900&display=swap');
+
+
+body{
+    @apply font-secondary text-[20px] text-secondary;
+}
+
+a{
+    @apply text-base font-semibold hover:text-accent transition-all delay-100 duration-100 ;
+}
+h1,h2,h3,h4,h5,h6{
+    @apply text-primary font-primary
+}
+h1{
+    @apply text-6xl leading-none lg:text-[84px]
+}
+h2{
+    @apply text-5xl leading-tight
+}
+h3{
+    @apply text-2xl
+}
+
+.btn{
+    @apply py-[10px] rounded-lg px-[15px] transition-all duration-300 text-white flex text-center gap-2;
+}
+.btn-primary{
+    @apply bg-primary hover:bg-primary-hover;
+}
+.btn-accent{
+    @apply bg-accent hover:bg-accent-hover
+}
