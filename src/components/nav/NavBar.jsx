@@ -10,8 +10,8 @@ const NavBar = () => {
     return (
 
         <>
-             <nav className={` ${open===true ? "h-[220px] shadow-lg shadow-gray-400" : "md:h-[90px] h-[50px]"}   sticky top-0 z-30 `}>
-                <div className='flex justify-around items-center shadow-sm md:h-full w-full '>
+             <nav className={` ${open===true ? "h-[220px] shadow-lg shadow-gray-400" : "md:h-[90px] h-[50px]"}   sticky  top-0 z-30 `}>
+                <div className='flex justify-around items-center  shadow-sm md:h-full w-full '>
                 <div className="logo">
                         <img src="/assets/logo.svg" className='w-36' alt="" />
                     </div>
