@@ -16,13 +16,19 @@ h1,h2,h3,h4,h5,h6{
     @apply text-primary font-primary
 }
 h1{
-    @apply text-6xl leading-none lg:text-[84px]
+    @apply text-6xl leading-none font-extrabold lg:text-[84px]
 }
 h2{
-    @apply text-5xl leading-tight
+    @apply text-5xl font-bold leading-tight
 }
 h3{
-    @apply text-2xl
+    @apply text-2xl font-semibold
+}
+h4{
+    @apply text-xl font-semibold
+}
+li{
+    @apply list-none
 }
 
 .btn{

@@ -35,7 +35,8 @@ export default {
         },
       },
       margin:{
-        '22':'88px'
+        '22':'88px',
+        "200":"200px"
       }
     
     },
